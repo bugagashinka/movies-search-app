@@ -1,0 +1,46 @@
+@import-normalize;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(49, 49, 49);
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+a {
+  color: rgb(49, 49, 49);
+  outline: #fff;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.background-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
